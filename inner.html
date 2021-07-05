@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href=".\fontawesome-free-5.15.3-web\fontawesome-free-5.15.3-web\all.css">
+	<link type="text/css" rel="stylesheet" href="style.css">
+	<script
+	src="https://code.jquery.com/jquery-3.6.0.min.js"
+	integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+	crossorigin="anonymous"></script>
+	<title>burger</title>
+</head>
+<body>
+	<h1 class="burgerpoint">BURGER POINT</h1>
+    <div class="box">
+    	<i class="fa fa-trash"></i>
+	    <div class="bread-top">
+	        <div class="seeds"></div>
+	        <div class="seeds2"></div>
+	    </div>
+	    <div class="salad"></div>
+	    <div class="bacon"></div>
+	    <div class="cheese"></div>
+	    <div class="meat"></div>
+	    <div class="bread-bottom"></div>
+	</div>
+<div class="pricebox">
+	<div class="price">PRICE</div>
+	<div class="counter"><span class="totalPrice">50</span>Rs</div>
+</div>
+<div class="container">
+	<div class="saladbox">
+		<div class="saladname">SALAD</div>
+		   <div class="minus1" onclick="removeIngredient('salad')">remove</div>
+		   <div class="counter1 saladCounter">1</div>
+		   <div class="plus1" onclick="addIngredient('salad')">add</div>
+		   <div class="rupees1"><span class="saladPrice">5</span>Rs</div>
+    </div>
+
+    <div class="baconbox">
+		<div class="baconname">BACON</div>
+		   <div class="minus2" onclick="removeIngredient('bacon')">remove</div>
+		   <div class="counter2 baconCounter">1</div>
+		   <div class="plus2" onclick="addIngredient('bacon')">add</div>
+		   <div class="rupees2"><span class="baconPrice">5</span>Rs</div>
+    </div>
+
+    <div class="cheesebox">
+		<div class="cheesename">CHEESE</div>
+		   <div class="minus3" onclick="removeIngredient('cheese')">remove</div>
+		   <div class="counter3 cheeseCounter">1</div>
+		   <div class="plus3" onclick="addIngredient('cheese')">add</div>
+		   <div class="rupees3"><span class="cheesePrice">10</span>Rs</div>
+    </div>
+
+    <div class="meatbox">
+		<div class="meatname">MEAT</div>
+		   <div class="minus4" onclick="removeIngredient('meat')">remove</div>
+		   <div class="counter4 meatCounter">1</div>
+		   <div class="plus4" onclick="addIngredient('meat')">add</div>
+		   <div class="rupees4"><span class="meatPrice">10</span>Rs</div>
+    </div>
+</div>
+
+<script src="exercise.js"></script>
+</body>
+</html>
